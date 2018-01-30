@@ -21,6 +21,6 @@ NOTE: Skeleton implementations have not been formatted to follow augo-grader for
 ## Project 4 Instructions
 * Please see the project objectives [here](http://www.ics.uci.edu/~guoqingx/courses/142/ProjectGuide/Project4/index.htm), but DO NOT READ the **Deliverables** section. Instead, refer to the google doc linked below.
 * Use the files provided in the **Project_4_Grader** directory to grade your project.
-* To see the **required format** that your project needs to follow, and to know **how to use the scripts**, please see [this](htt).
+* To see the **required format** that your project needs to follow, and to know **how to use the scripts**, please see [this](https://docs.google.com/document/d/1CCRBVxC5RPOLgIjPqe5JfnBWWELPDJfXUg1AOkIVAo4/edit?usp=sharing).
 
 
