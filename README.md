@@ -23,4 +23,9 @@ NOTE: Skeleton implementations have not been formatted to follow augo-grader for
 * Use the files provided in the **Project_4_Grader** directory to grade your project.
 * To see the **required format** that your project needs to follow, and to know **how to use the scripts**, please see [this](https://docs.google.com/document/d/1CCRBVxC5RPOLgIjPqe5JfnBWWELPDJfXUg1AOkIVAo4/edit?usp=sharing).
 
+## Project 5 Instructions
+* Please see the project objectives [here](htt), but DO NOT READ the **Deliverables** section. Instead, refer to the google doc linked below.
+* Use the files provided in the **Project_5_Grader** directory to grade your project.
+* To see the **required format** that your project needs to follow, and to know **how to use the scripts**, please see [this](https://docs.google.com/document/d/1M214ovNrigSJuSZzzvYa0vtFPDC-UbIfVF-RbuF3mfw/edit?usp=sharing).
+
 
