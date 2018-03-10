@@ -46,6 +46,24 @@ for pjt in .* *; do #for each project directory
             			java crux.Compiler $testfile > $testfile".asm" 
 			fi
 		done
+
+		####Getting the Results#####
+
+      		summary="TESTS:"$testtype", TOTAL TESTS:"$totaltestsCount", TOTAL PASSED:"$testPassCount", TOTAL FAILED:"$testFailCount
+      		echo $summary > $testtype"."$pjt".summary"
+      		grep studentID crux/Compiler.java &>> studentInfo.txt
+      		grep studentName crux/Compiler.java &>> studentInfo.txt
+      		grep uciNetID crux/Compiler.java &>> studentInfo.txt
+      		grep -o '".*"' studentInfo.txt | sed 's/"//g' &>> studentInfoXtract.txt 
+      		studentFinalData=$pjt","
+      		while read line; do
+        		studentFinalData=$studentFinalData$line","
+      		done < studentInfoXtract.txt 
+      		studentFinalData=$studentFinalData$testPassCount","$testFailCount
+
+   		cd ..
+		echo "Storing student info in finalOutput csv file"
+		echo $studentFinalData >> "finalOutput."$testtype".csv"
 	fi
 done
 
